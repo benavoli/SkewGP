@@ -1,6 +1,7 @@
 # `SkewGP`
 ### Skew Gaussian Processes:  a unified framework for closed-form nonparametric regression, classification, preference and mixed problems 
 
+![cover](https://github.com/benavoli/SkewGP/blob/main/image.png)
 
 ## Usage
 For usage, please refer to the tutorial notebooks
