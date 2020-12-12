@@ -16,7 +16,7 @@ likelihoods and, consequently, supervised learning problems.
 For usage, please refer to the tutorial notebooks
 
 ## How to cite
-If you are using `LinConGauss` for your research, consider citing both the papers: 
+If you are using `SkewGP` for your research, consider citing both the papers: 
 ```
 @article{benavoli2020a,
 title = {Skew Gaussian Processes for Classification},
