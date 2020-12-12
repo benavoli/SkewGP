@@ -9,7 +9,7 @@ outputs, we can combine the GP prior with a Gaussian likelihood and perform exac
 inference is known to be intractable.
 
 We showed that is actually possible to derive closed-form expression for the posterior process in all the above cases (not only for regression), and that the posterior process is a Skew Gaussian Process (SkewGP). SkewGPs are more general and more flexible nonparametric distributions than GPs, as SkewGPs may also represent asymmetric distributions. Moreover, SkewGPs include GPs as a particular case. By exploiting the closed-form expression for the posterior and
-predictive distribution, we can compute inferences for regression, classification, preference and mixed problems with computation complexity of $O(n^3)$ and storage demands of \[O(n^2)\] (same as for GP regression).
+predictive distribution, we can compute inferences for regression, classification, preference and mixed problems with computation complexity of O(n^3) and storage demands of O(n^2) (same as for GP regression).
 
 This  software library provides a unified framework for closed-form nonparametric inference for a large class of
 supervised learning problems.
