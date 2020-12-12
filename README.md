@@ -5,15 +5,12 @@
 ![cover](https://github.com/benavoli/SkewGP/blob/main/image.png)
 
 Gaussian Processes (GPs) are powerful nonparametric distributions over functions. For real-valued
-outputs, we can combine the GP prior with a Gaussian likelihood and perform exact posterior inference in closed form. However, in other cases, such as classification, preference learning, ordinal
-regression and mixed problems, the likelihood is no longer conjugate to the GP prior, and exact
+outputs, we can combine the GP prior with a Gaussian likelihood and perform exact posterior inference in closed form. However, in other cases, such as classification, preference learning, ordinal regression and mixed problems, the likelihood is no longer conjugate to the GP prior, and exact
 inference is known to be intractable.
-In this paper, we show that is actually possible to derive closed-form expression for the posterior process in all the above cases (not only for regression), and that the posterior process is a Skew
-Gaussian Process (SkewGP). SkewGPs are more general and more flexible nonparametric distributions than GPs, as SkewGPs may also represent asymmetric distributions. Moreover, SkewGPs
-include GPs as a particular case. By exploiting the closed-form expression for the posterior and
-predictive distribution, we show that we can compute inferences for regression, classification, preference and mixed problems with computation complexity of $O(n^3)$ and storage demands of $O(n^2)$
-(same as for GP regression).
-This allows us to provide a unified framework for nonparametric inference for a large class of
+We showed that is actually possible to derive closed-form expression for the posterior process in all the above cases (not only for regression), and that the posterior process is a Skew
+Gaussian Process (SkewGP). SkewGPs are more general and more flexible nonparametric distributions than GPs, as SkewGPs may also represent asymmetric distributions. Moreover, SkewGPs include GPs as a particular case. By exploiting the closed-form expression for the posterior and
+predictive distribution, we show that we can compute inferences for regression, classification, preference and mixed problems with computation complexity of $O(n^3)$ and storage demands of $O(n^2)$ (same as for GP regression).
+This  allows us to provide a unified framework for nonparametric inference for a large class of
 likelihoods and, consequently, supervised learning problems.
 
 ## Usage
