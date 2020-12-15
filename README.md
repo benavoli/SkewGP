@@ -20,7 +20,7 @@ For usage, please refer to the tutorial notebooks
 ## How to cite
 If you are using `SkewGP` for your research, consider citing both the papers: 
 ```
-@article{benavoli2020a,
+@article{benavoli2020,
 title = {Skew Gaussian Processes for Classification},
 author = {Alessio Benavoli and Dario Azzimonti and Dario Piga},
 url = {https://arxiv.org/abs/2005.12987},
@@ -31,5 +31,14 @@ journal = {Machine Learning},
 volume = {109},
 pages = {1877–1902}
 }
+
+@article{benavoli2021,
+      title={{A unified framework for closed-form nonparametric regression, classification, preference and mixed problems with Skew Gaussian Processes}}, 
+      author={Alessio Benavoli and Dario Azzimonti and Dario Piga},
+      year={2021},
+      eprint={Arxiv 2012.06846},
+      url = {https://arxiv.org/abs/2012.06846}
+}
+
 ```
 
