@@ -18,7 +18,7 @@ supervised learning problems.
 For usage, please refer to the tutorial notebooks
 
 ## How to cite
-If you are using `SkewGP` for your research, consider citing both the papers: 
+If you are using `SkewGP` for your research, consider citing the following papers: 
 ```
 @article{benavoli2020,
 title = {Skew Gaussian Processes for Classification},
@@ -32,7 +32,22 @@ volume = {109},
 pages = {1877–1902}
 }
 
-@article{benavoli2021,
+
+@inproceedings{benavoli2021pboSkewGP,
+  author = {Benavoli, Alessio and Azzimonti, Dario and Piga, Dario},
+  title = {{Preferential Bayesian optimisation with Skew Gaussian Processes}},
+  booktitle = {{2021 Genetic and Evolutionary Computation Conference Companion (GECCO '21 Companion), July 10--14, 2021, Lille, France}},
+  doi = {10.1145/3449726.3463128},
+  isbn = {978-1-4503-8351-6/21/07},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  keywords = {Bayesian Optimisation, Bayesian preferential optimisation, Skew Gaussian Processes},
+  year = {2021}
+}
+
+
+
+@article{benavoli2021unified,
       title={{A unified framework for closed-form nonparametric regression, classification, preference and mixed problems with Skew Gaussian Processes}}, 
       author={Alessio Benavoli and Dario Azzimonti and Dario Piga},
       year={2021},
