@@ -47,13 +47,15 @@ pages = {1877–1902}
 
 
 
-@article{benavoli2021unified,
-      title={{A unified framework for closed-form nonparametric regression, classification, preference and mixed problems with Skew Gaussian Processes}}, 
-      author={Alessio Benavoli and Dario Azzimonti and Dario Piga},
-      year={2021},
-      eprint={Arxiv 2012.06846},
-      url = {https://arxiv.org/abs/2012.06846}
+@article{benavoli2021,
+title = {A unified framework for closed-form nonparametric regression, classification, preference and mixed problems with Skew Gaussian Processes},
+author = {Alessio Benavoli and Dario Azzimonti and Dario Piga},
+url = {https://link.springer.com/article/10.1007/s10994-021-06039-x},
+doi = {10.1007/s10994-021-06039-x},
+year = {2021},
+date = {2021-09-13},
+journal = {Machine Learning},
+pages = {1-39},
 }
-
 ```
 
